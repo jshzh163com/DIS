@@ -17,8 +17,8 @@ def loaddata_from_numpy(dataset, task, root_dir):
         )
     x = np.load(x_path)
     ty = np.load(y_path)
-    if ty.ndim != 2 or ty.shape[1] < 3:
+    if ty.ndim != 2 or ty.shape[1] < 2:
         raise ValueError(
-            "Label file must have at least three columns: class, domain, position")
-    cy, py, sy = ty[:, 0], ty[:, 1], ty[:, 2]
-    return x, cy, py, sy
+            "Label file must have at least two columns: class, domain")
+    cy, py = ty[:, 0], ty[:, 1]
+    return x, cy, py
