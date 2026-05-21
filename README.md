@@ -16,7 +16,7 @@ python train.py --dataset CWRU --data_dir ./data/CWRU/
 
 Data files are not included in the repository.
 
-![SQV data preparation and file structure](assets/data_preparation.svg)
+![SQV data preparation and file structure](assets/data_preparation.png)
 
 Prepare SQV files from the original `.mat` files:
 
