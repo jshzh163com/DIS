@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+/data/
+train_output*/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+.venv/
+venv/
+.env
+
+.codex/
