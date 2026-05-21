@@ -22,7 +22,6 @@ Expected SQV files:
 ```text
 data/SQV/SQV_x.npy
 data/SQV/SQV_y.npy
-
 ```
 The label array should contain two columns:
 ```text
