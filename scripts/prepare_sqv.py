@@ -63,7 +63,6 @@ def prepare_sqv(args):
             label = np.column_stack([
                 np.full(selected.shape[0], class_id),
                 np.full(selected.shape[0], file_count),
-                np.zeros(selected.shape[0]),
             ])
 
             samples.append(selected)
