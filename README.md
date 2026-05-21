@@ -1,15 +1,13 @@
 # DG-based IFD: DIS
-This repository provides PyTorch code for DIS training on SQV and CWRU style vibration datasets.
+This repository provides PyTorch code for DIS training on SQV bearing dataset.
 
 ## Run
-
 ```bash
 pip install -r requirements.txt
 python train.py --dataset SQV
 ```
 
 For CWRU:
-
 ```bash
 python train.py --dataset CWRU --data_dir ./data/CWRU/
 ```
@@ -27,21 +25,12 @@ python scripts/prepare_sqv.py --mat_dir /path/to/SQV-public/mat_file --output_di
 ```
 
 Expected SQV files:
-
 ```text
 data/SQV/SQV_x.npy
 data/SQV/SQV_y.npy
 ```
 
-Expected CWRU files:
-
-```text
-data/CWRU/CWRU_x.npy
-data/CWRU/CWRU_y.npy
-```
-
 The label array should contain two columns:
-
 ```text
 class_label, domain_label
 ```
