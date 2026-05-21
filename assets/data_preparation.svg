@@ -43,8 +43,8 @@
 
   <rect x="550" y="235" width="260" height="118" class="accent"/>
   <text x="572" y="266" class="label">SQV_y.npy</text>
-  <text x="572" y="293" class="small">shape: N x 3</text>
-  <text x="572" y="318" class="small">columns: class, domain, position</text>
+  <text x="572" y="293" class="small">shape: N x 2</text>
+  <text x="572" y="318" class="small">columns: class, domain</text>
 
   <path d="M855 163 C855 205, 300 190, 300 235" class="arrow"/>
   <path d="M855 163 C855 205, 680 190, 680 235" class="arrow"/>
@@ -57,7 +57,6 @@
   <text x="442" y="423" class="label">Label columns</text>
   <text x="442" y="448" class="small">0: class label, range 0 to 6</text>
   <text x="442" y="469" class="small">1: domain label, file or condition id</text>
-  <text x="442" y="490" class="small">2: position label, default 0</text>
 
   <path d="M300 353 V410" class="arrow"/>
   <path d="M680 353 C680 375, 555 370, 555 395" class="arrow"/>
