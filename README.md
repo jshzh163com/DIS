@@ -40,8 +40,8 @@ data/CWRU/CWRU_x.npy
 data/CWRU/CWRU_y.npy
 ```
 
-The label array should contain at least three columns:
+The label array should contain two columns:
 
 ```text
-class_label, domain_label, position_label
+class_label, domain_label
 ```
