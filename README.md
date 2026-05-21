@@ -1,6 +1,5 @@
-# Minimal DIS Training
-
-This repository contains a minimal PyTorch implementation for DIS training on SQV and CWRU style vibration datasets.
+# DG-based IFD: DIS
+This repository provides PyTorch code for DIS training on SQV and CWRU style vibration datasets.
 
 ## Run
 
