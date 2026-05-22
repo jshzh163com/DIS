@@ -7,7 +7,7 @@ pip install -r requirements.txt
 python train.py --dataset SQV
 ```
 
-For CWRU:
+For another dataset, i.e., CWRU:
 ```bash
 python train.py --dataset CWRU --data_dir ./data/CWRU/
 ```
