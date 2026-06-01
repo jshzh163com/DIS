@@ -1,5 +1,6 @@
 # DG-based IFD: DIS
-This repository provides PyTorch code for DIS training on SQV bearing dataset.
+Code for "Domain interference suppression for reliable fault diagnosis under unseen operating conditions"
+This repository provides PyTorch code for DIS training on the SQV bearing dataset.
 
 ## Run
 ```bash
