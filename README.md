@@ -1,4 +1,4 @@
-# DG-based IFD: DIS
+# Domain generalization-based intelligent fault diagnosis: Domain interference suppression
 Code for "Domain interference suppression for reliable fault diagnosis under unseen operating conditions". <br>
 This repository provides PyTorch code for DIS training on the SQV bearing dataset.
 
