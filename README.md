@@ -47,6 +47,6 @@ If you find this work useful in your research, please cite:
   volume = {256},
   pages = {114457},
   year = {2026},
-  doi = {https://doi.org/10.1016/j.ymssp.2026.114457}
+  doi = {https://doi.org/10.1016/j.ymssp.2026.114457},
 }
 ```
