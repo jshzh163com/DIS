@@ -2,6 +2,12 @@
 Code for "Domain interference suppression for reliable fault diagnosis under unseen operating conditions". <br>
 This repository provides PyTorch code for DIS training on the SQV bearing dataset.
 
+## Update (2026.10)
+Added MATLAB scripts for converting raw TXT data into MAT files.
+The scripts and a test example are available in the [matlab](./matlab) directory. 
+The preprocessing scripts trim the beginning and end of each recording to exclude potentially unstable operating periods during startup and shutdown, as the rotational speed starts from and returns to zero.
+
+
 ## Run
 ```bash
 pip install -r requirements.txt
